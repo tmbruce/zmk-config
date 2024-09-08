@@ -1,2 +1,2 @@
 config SHELD_DASBOB
-	def_bool $(shields_list_contains, dasbob)
+	def_bool $(shields_list_contains, Dasbob)
