@@ -12,7 +12,7 @@
 				&kp H &kp J &kp K &kp L &kp SEMI
 				&kp N &kp M &kp COMMA &kp DOT &kp FLSH
 				&kp RIGHT_COMMAND &kp SPACE & BACKSPACE
-		>;
-		}
-	}
-}
+			>;
+		};	
+	};
+};
