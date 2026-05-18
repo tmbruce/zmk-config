@@ -1,23 +1,16 @@
-if SHIELD_DASBOB_LEFT || SHIELD_DASBOB_RIGHT
+if SHIELD_DASBOB_LEFT
 
 config ZMK_KEYBOARD_NAME
 	default "Dasbob"
 
+config ZMK_SPLIT_ROLE_CENTRAL
+	default y
+
+endif
+
+if SHIELD_DASBOB_LEFT || SHIELD_DASBOB_RIGHT
+
 config ZMK_SPLIT
 	default y
-
-if SHIELD_DASBOB_LEFT
-
-config ZMK_SPLIT_BLE_ROLE_CENTRAL
-	default y
-
-endif
-
-if SHIELD_DASBOB_RIGHT
-
-config ZMK_SPLIT_BLE_ROLE_PERIPHERAL
-	default y
-
-endif
 
 endif
