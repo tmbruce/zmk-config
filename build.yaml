@@ -1,6 +1,6 @@
 ---
 include:
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: dasbob_left
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: dasbob_right
